@@ -8,7 +8,7 @@ import sys
 
 # Complete the aVeryBigSum function below.                
 def aVeryBigSum(ar):                                      #This problem was fairly simple.
-    return(sum(ar))                                       #We used the inbuilt method, called sum to add all elements, and we returned the array.
+    return(sum(ar))                                       #We used the inbuilt method, called sum to add all elements, and then we returned the array.
                             
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
