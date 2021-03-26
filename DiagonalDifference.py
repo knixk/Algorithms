@@ -21,7 +21,7 @@ def diagonalDifference(arr):
     
     for i in range(n):
         left += arr[i][i]                   #here we increment row and column by 1
-        right += arr[i][n-i-1]              #here we iterate throught the last element in opposite direction
+        right += arr[i][n-i-1]              #here we iterate through the last element in opposite direction
         
     return abs(left - right)
     
